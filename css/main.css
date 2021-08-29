@@ -1,0 +1,246 @@
+.my-0 {
+  margin-top: 0rem;
+  margin-bottom: 0rem; }
+
+.mt-0 {
+  margin-top: 0rem; }
+
+.mb-0 {
+  margin-bottom: 0rem; }
+
+.mx-0 {
+  margin-left: 0rem;
+  margin-right: 0rem; }
+
+.ml-0 {
+  margin-left: 0rem; }
+
+.mr-0 {
+  margin-right: 0rem; }
+
+.py-0 {
+  padding-top: 0rem;
+  padding-bottom: 0rem; }
+
+.px-0 {
+  padding-left: 0rem;
+  padding-right: 0rem; }
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mb-1 {
+  margin-bottom: 1rem; }
+
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.ml-1 {
+  margin-left: 1rem; }
+
+.mr-1 {
+  margin-right: 1rem; }
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
+
+.mb-2 {
+  margin-bottom: 2rem; }
+
+.mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.ml-2 {
+  margin-left: 2rem; }
+
+.mr-2 {
+  margin-right: 2rem; }
+
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.mt-3 {
+  margin-top: 3rem; }
+
+.mb-3 {
+  margin-bottom: 3rem; }
+
+.mx-3 {
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+.ml-3 {
+  margin-left: 3rem; }
+
+.mr-3 {
+  margin-right: 3rem; }
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.my-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.mt-4 {
+  margin-top: 4rem; }
+
+.mb-4 {
+  margin-bottom: 4rem; }
+
+.mx-4 {
+  margin-left: 4rem;
+  margin-right: 4rem; }
+
+.ml-4 {
+  margin-left: 4rem; }
+
+.mr-4 {
+  margin-right: 4rem; }
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.px-4 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.my-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.mt-5 {
+  margin-top: 5rem; }
+
+.mb-5 {
+  margin-bottom: 5rem; }
+
+.mx-5 {
+  margin-left: 5rem;
+  margin-right: 5rem; }
+
+.ml-5 {
+  margin-left: 5rem; }
+
+.mr-5 {
+  margin-right: 5rem; }
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.px-5 {
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  font: 16px sans-serif;
+  color: #32b8df;
+  background: #303030; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1rem; }
+
+li {
+  list-style: none; }
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.5); }
+  .navbar .navbar-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 45px;
+    background: #32b8df; }
+    .navbar .navbar-list .navbar-item {
+      padding: 10px 25px; }
+      .navbar .navbar-list .navbar-item .navbar-link {
+        position: relative;
+        color: #1c1c1c;
+        transition: color 250ms ease-in-out;
+        z-index: 2; }
+        .navbar .navbar-list .navbar-item .navbar-link:hover {
+          color: #003f5e;
+          transition: color 250ms ease-in-out; }
+      .navbar .navbar-list .navbar-item.active .navbar-link {
+        color: #32b8df; }
+      .navbar .navbar-list .navbar-item:nth-child(1).active ~ .active-slider {
+        left: -5px;
+        width: 110px; }
+      .navbar .navbar-list .navbar-item:nth-child(2).active ~ .active-slider {
+        left: 107px;
+        width: 110px; }
+      .navbar .navbar-list .navbar-item:nth-child(3).active ~ .active-slider {
+        left: 235px;
+        width: 130px; }
+      .navbar .navbar-list .navbar-item:nth-child(4).active ~ .active-slider {
+        left: 375px;
+        width: 130px; }
+  .navbar .active-slider {
+    position: absolute;
+    left: -5px;
+    top: -10%;
+    width: 110px;
+    height: 120%;
+    background: #003f5e;
+    border-radius: 45px;
+    z-index: 1;
+    transition: left 400ms cubic-bezier(0.54, 0.49, 0.64, 1.31), width 250ms ease; }
