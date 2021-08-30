@@ -207,11 +207,14 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px;
+    padding: 0px 20px;
     border-radius: 45px;
     background: #32b8df; }
     .navbar .navbar-list .navbar-item {
-      padding: 10px 25px; }
+      padding-top: 8px;
+      padding-bottom: 8px; }
+      .navbar .navbar-list .navbar-item:not(:nth-last-child(2)) {
+        padding-right: 35px; }
       .navbar .navbar-list .navbar-item .navbar-link {
         position: relative;
         color: #1c1c1c;
@@ -224,16 +227,16 @@ li {
         color: #32b8df; }
       .navbar .navbar-list .navbar-item:nth-child(1).active ~ .active-slider {
         left: -5px;
-        width: 110px; }
+        width: 95px; }
       .navbar .navbar-list .navbar-item:nth-child(2).active ~ .active-slider {
-        left: 107px;
+        left: 87px;
         width: 110px; }
       .navbar .navbar-list .navbar-item:nth-child(3).active ~ .active-slider {
-        left: 235px;
+        left: 199px;
         width: 130px; }
       .navbar .navbar-list .navbar-item:nth-child(4).active ~ .active-slider {
-        left: 375px;
-        width: 130px; }
+        left: 327px;
+        width: 120px; }
   .navbar .active-slider {
     position: absolute;
     left: -5px;
@@ -243,4 +246,4 @@ li {
     background: #003f5e;
     border-radius: 45px;
     z-index: 1;
-    transition: left 400ms cubic-bezier(0.54, 0.49, 0.64, 1.31), width 250ms ease; }
+    transition: left 350ms cubic-bezier(0.54, 0.49, 0.64, 1.31), width 250ms ease; }
